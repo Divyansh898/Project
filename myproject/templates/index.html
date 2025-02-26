@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  {% load static %}
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/aos/aos.css" rel="stylesheet' %}">
+  <link href="{% static 'vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="{% static 'css/main.css' %}" rel="stylesheet">
+
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="./assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Divyansh Varshney</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+         
+          
+          </li>
+          <li><a href="#contact">Contact</a></li>
+		   <li><a href="#Blog">Blog</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="{% static 'img/hero-img.jpg' %}" alt="" data-aos="fade-in">
+
+      <div class="container d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+        <h2>I am Divyansh Varshney</h2>
+        <p><span class="typed" data-typed-items="Python Developer,API Developer"></span></p>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-md-6">
+
+            <div class="row justify-content-between gy-4">
+              <div class="col-lg-5">
+                
+                <img src="{% static 'img/profile-img.jpg' %}" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-7 about-info">
+                <p><strong>Name: </strong> <span>Shani Sharma</span></p>
+                <p><strong>Profile: </strong> <span>DOT NET Developer</span></p>
+                <p><strong>Email: </strong> <span>shanisharma20102001@gmail.com</span></p>
+                <p><strong>Phone: </strong> <span>(+91) 6392798883</span></p>
+              </div>
+            </div>
+
+            <div class="skills-content skills-animation">
+
+              <h5>Skills</h5>
+
+              <div class="progress">
+                <span class="skill"><span>C#</span> <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+		
+
+              <div class="progress">
+                <span class="skill"><span>ASP.NET Core Web API</span> <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+			  
+              <div class="progress">
+                <span class="skill"><span>ASP.NET Core MVC</span> <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>JavaScript</span> <i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>SQL</span> <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+			   <div class="progress">
+                <span class="skill"><span>HTML</span> <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+			   <div class="progress">
+                <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+			   <div class="progress">
+                <span class="skill"><span>Bootstrap</span> <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+			  <div class="progress">
+                <span class="skill"><span>Third part API Integration US Health Care like Epic, eCW, Allscripts, Cerner, Greenway Health, Practice Fusion, AdvanceMD and  Athena Health.
+              
+              </div><!-- End Skills Item -->
+
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="about-me">
+              <h4>About me</h4>
+              <p>
+              As a Senior Software Engineer with over 4.9 years of experience, I have honed my skills in the analysis, design, development, testing, and implementation of various Internet-based applications. My journey in the tech industry has equipped me with a robust understanding of the complete software development lifecycle, particularly in the realm of dynamic web projects. I am passionate about creating innovative solutions that not only meet client requirements but also enhance user experiences.
+			  I am well-versed in all stages of the development cycle, from requirements gathering and analysis to deployment and maintenance. My approach to software development emphasizes collaboration and communication with stakeholders to ensure that the final product aligns with business objectives. I employ Agile methodologies, which allow for iterative development and continuous feedback, ensuring that projects stay on track and adapt to changing requirements.
+
+During the design phase, I focus on creating user-centric applications. I prioritize usability and functionality, ensuring that the end-user experience is seamless and intuitive. My testing process includes unit testing, integration testing, and user acceptance testing, which helps identify and resolve issues early in the development cycle.
+One of my key strengths is my exceptional problem-solving ability. I thrive in challenging situations and enjoy troubleshooting complex issues. My analytical mindset allows me to dissect problems, identify root causes, and implement effective solutions. I believe that every challenge presents an opportunity for growth and learning.
+
+I also possess a strong aptitude for quickly mastering new skills, technologies, and roles. This adaptability has been crucial in keeping pace with the rapidly evolving tech landscape. I am committed to continuous learning and regularly seek out opportunities to expand my knowledge base, whether through online courses, workshops, or collaboration with peers.
+              </p>
+              <!-- <p> -->
+
+              <!-- </p> -->
+              <!-- <p> -->
+                <!-- Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. -->
+                <!-- Nulla porttitor accumsan -->
+                <!-- tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. -->
+              <!-- </p> -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>Versatile software engineer with extensive experience in developing robust web applications and software solutions. Proven expertise in leveraging technologies such as ASP.NET Core, C#, and SQL Server to deliver high-performance applications tailored to client needs. </p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+         
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor of Technology (B.Tech) in Information Technology</h4>
+              <h5>2021 - 2023</h5>
+              <p><em>Dr. A. P. J. Abdul Kalam Technical University, Lucknow
+University in Lucknow, Uttar Pradesh
+ </em></p>
+              <p>Completed coursework in software development, database management, web technologies, and network security.Engaged in various projects that involved analysis, design, and implementation of web-based applications.Gained foundational knowledge in computer science principles, programming languages, and software applications.</p>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Diploma in Computer Scince and Engineering </h4>
+              <h5>2017 - 2019</h5>
+              <p><em> Govermnet Polytechnic Madhogarh</em></p>
+              <p>Gained foundational knowledge in computer science principles, programming languages, and software applications.
+Participated in practical labs and projects that enhanced technical skills and understanding of computer systems.
+Developed teamwork and communication skills through collaborative projects and presentations.</p>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Senior Software Engineer</h4>
+              <h5>2022 - Present</h5>
+              <p><em>Chetu India Pvt Ltd </em></p>
+              <ul>
+                <li>Lead the Design and development of scalable web applications using ASP.NET Core and ASP.NET MVC, ensuring high performance and responsiveness</li>
+                <li>Mentor junior developers, providing guidance on technical challenges and fostering a collaborative team environment.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Software Engineer</h4>
+              <h5>2020 - 2022</h5>
+              <p><em>Mecatredz Softwares and Innovations Pvt. Ltd</em></p>
+              <ul>
+                <li>Developed dynamic web applications using C#, HTML, CSS, and JavaScript, contributing to various projects that improved client engagement and user experience.</li>
+                <li>Participated in the full software development lifecycle, from requirements gathering and design to testing and deployment.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Blogger</h2>
+        <p>Hello and welcome to my world! As a passionate blogger with a deep understanding of technology, I specialize in providing high-quality solutions designed to meet the unique needs of my readers. Whether you’re a startup looking to make your mark, a small business seeking growth, or an established enterprise aiming to innovate, I’m here to support you in achieving your digital goals.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="bi bi-activity"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Websites</h3>
+              </a>
+              <p>A strong online presence is essential in today’s digital world. I offer professional website development services that focus on creating responsive, user-friendly, and visually appealing websites. Whether you need a personal blog, a portfolio, or an e-commerce platform, I ensure your website is optimized for performance and search engines.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-broadcast"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Data Migrations/AI assistance</h3>
+              </a>
+              <p>If you’re looking to migrate data to a new system, I can help make the process smooth and efficient. I specialize in data migrations that prioritize data integrity and minimize downtime. Additionally, I offer AI assistance to help you leverage data analytics, providing insights that can drive your business forward.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-easel"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>API Development</h3>
+              </a>
+              <p>Integrating various applications is crucial for enhancing functionality. I provide custom API development services that enable seamless communication between your systems. My APIs are built to be robust, secure, and tailored to your specific requirements, enhancing your application’s capabilities.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-bounding-box-circles"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Software Development </h3>
+              </a>
+              <p>I offer custom software development services designed to create solutions that fit your business perfectly. Whether you need a desktop application or a specialized software solution, I follow a structured approach to deliver high-quality products that meet your objectives.</p>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-calendar4-week"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Windows App</h3>
+              </a>
+              <p>With expertise in Windows app development, I create applications that deliver an exceptional user experience on the Windows platform. My focus is on designing intuitive, functional, and visually appealing apps that cater to your users' needs.</p>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-chat-square-text"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Mobile App Development</h3>
+              </a>
+              <p>In today’s mobile-centric world, having a dedicated mobile app can significantly enhance your business. I develop user-friendly mobile applications for both iOS and Android platforms, focusing on engaging design and functionality that drives user retention and satisfaction.</p>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section accent-background">
+        
+      <img src="{% static 'img/stats-bg.jpg' %}" alt="" data-aos="fade-in">
+
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="0" class="purecounter">5</span>
+              <p>Clients</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="7" data-purecounter-duration="0" class="purecounter">7</span>
+              <p>Projects</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="0" class="purecounter">24</span>
+              <p>Hours Of Support</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="0" class="purecounter">1</span>
+              <p>Awards</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+
+    <!-- Faq Section -->
+    <section id="faq" class="faq section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="content px-xl-5">
+              <h3><span>Why Work With Me </span><strong>?</strong></h3>
+              <p>
+                 As a freelancer, I am committed to providing personalized attention and high-quality results. I pride myself on clear communication, timely delivery, and a collaborative approach to ensure your vision comes to life.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="faq-container">
+              <div class="faq-item faq-active">
+                <h3><span class="num">1.</span><span> Ready to elevate your project? Let’s connect!</span></h3>
+                <div class="faq-content">
+                  <p>Reach out today to discuss how I can help you achieve your digital transformation goals!</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">2.</span> <span> Personalized Attention</span></h3>
+                <div class="faq-content">
+                  <p>I believe that every project is unique and deserves tailored solutions. By working directly with you, I ensure that I fully understand your specific needs, goals, and challenges. This personalized approach allows me to create solutions that are not just effective but also aligned with your vision.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">3.</span> <span> High-Quality Results</span></h3>
+                <div class="faq-content">
+                  <p>Quality is my top priority. I leverage my expertise and attention to detail to deliver exceptional results that meet and exceed your expectations. Whether it’s a website, mobile app, or software solution, I employ best practices and the latest technologies to ensure that the final product is robust, scalable, and user-friendly.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">4.</span> <span>Timely Delivery</span></h3>
+                <div class="faq-content">
+                  <p>I understand the importance of deadlines and strive to deliver projects on time without compromising quality. My organized workflow and time management skills allow me to meet your timelines while maintaining a high standard of work.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">5.</span> <span>Cost-Effective Solutions</span></h3>
+                <div class="faq-content">
+                  <p>Working with me often means lower overhead costs compared to larger firms. I provide high-quality services at competitive rates, allowing you to maximize your budget while still receiving exceptional value.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Faq Section -->
+
+  <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact (I’m Here to Help!)</h2>
+        <p>Whether you have questions, feedback, or need assistance, I’d love to hear from you! As a dedicated freelancer, my goal is to provide you with the support you need to bring your project to life.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-5">
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>Noida Sector 59 UP India</p>
+                </div>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>+916392798883 , +919415302274</p>
+                </div>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>shanisharma20102001@gmail.com</p>
+                </div>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+        </div>
+
+        <!-- <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="300"> -->
+          <!-- <div class="row gy-4"> -->
+
+            <!-- <div class="col-md-6"> -->
+              <!-- <input type="text" name="name" class="form-control" placeholder="Your Name" required=""> -->
+            <!-- </div> -->
+
+            <!-- <div class="col-md-6 "> -->
+              <!-- <input type="email" class="form-control" name="email" placeholder="Your Email" required=""> -->
+            <!-- </div> -->
+
+            <!-- <div class="col-md-12"> -->
+              <!-- <input type="text" class="form-control" name="subject" placeholder="Subject" required=""> -->
+            <!-- </div> -->
+
+            <!-- <div class="col-md-12"> -->
+              <!-- <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea> -->
+            <!-- </div> -->
+
+            <!-- <div class="col-md-12 text-center"> -->
+              <!-- <div class="loading">Loading</div> -->
+              <!-- <div class="error-message"></div> -->
+              <!-- <div class="sent-message">Your message has been sent. Thank you!</div> -->
+
+              <!-- <button type="submit">Send Message</button> -->
+            <!-- </div> -->
+
+          <!-- </div> -->
+        <!-- </form><!-- End Contact Form -->
+
+      <!-- </div> -->
+</div>
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer accent-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Shani Sharma</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by Shani</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+<!-- Main JS File -->
+<script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+<script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
+<script src="{% static 'vendor/aos/aos.js' %}"></script>
+<script src="{% static 'vendor/typed.js/typed.umd.js' %}"></script>
+<script src="{% static 'vendor/waypoints/noframework.waypoints.js' %}"></script>
+<script src="{% static 'vendor/purecounter/purecounter_vanilla.js' %}"></script>
+<script src="{% static 'vendor/glightbox/js/glightbox.min.js' %}"></script>
+<script src="{% static 'vendor/imagesloaded/imagesloaded.pkgd.min.js' %}"></script>
+<script src="{% static 'vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+<script src="{% static 'vendor/swiper/swiper-bundle.min.js' %}"></script>
+<script src="{% static 'js/main.js' %}"></script>
+
+</body>
+
+</html>
